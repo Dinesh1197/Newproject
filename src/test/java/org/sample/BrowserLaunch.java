@@ -17,10 +17,11 @@ public class BrowserLaunch extends BaseClass {
 	public static void main(String[] args) throws IOException{
 		
 		chromeBrowser();	
-		urllaunch("https://www.facebook.com/");	
+		urllaunch("https://www.facebook.com/");
 		implicitwait(30);
 		windowmaximize();
 		Registrationpage R=new Registrationpage();
+		System.out.println("Dinesh");
 	    
 		
 	   
